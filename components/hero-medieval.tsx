@@ -2,10 +2,14 @@ import * as React from "react"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Flower, Component, Hourglass } from "lucide-react"
+import { ThemeToggle } from "@/components/theme-toggle"
 
 export function HeroMedieval() {
   return (
-    <section className="container mx-auto px-4 py-12 sm:py-16 lg:py-20">
+    <section className="container mx-auto px-4 py-12 sm:py-16 lg:py-20 relative">
+      <div className="absolute top-4 right-4 sm:top-8 sm:right-8 z-10">
+        <ThemeToggle />
+      </div>
       <div className="grid min-h-[calc(100vh-8rem)] grid-cols-1 items-center gap-8 sm:gap-12 lg:grid-cols-2">
         {/* Left: Text Content */}
         <div className="flex flex-col space-y-6">
