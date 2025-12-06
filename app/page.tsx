@@ -1,9 +1,9 @@
 import { Button } from "@/components/ui/button";
-import { CardDemo } from "./card-example";
-import { AlertDialogDemo } from "./alertDemo";
-import { CheckboxDemo } from "./checkbox-demo";
-import { SliderDemo } from "./slider-demo";
-import { BadgeDemo } from "./badge-demo";
+import { AlertDialogDemo } from "./(demos)/alert-dialog-demo";
+import { BadgeDemo } from "./(demos)/badge-demo";
+import { CardDemo } from "./(demos)/card-demo";
+import { CheckboxDemo } from "./(demos)/checkbox-demo";
+import { SliderDemo } from "./(demos)/slider-demo";
 export default function Home() {
   return (
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
