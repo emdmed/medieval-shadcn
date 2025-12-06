@@ -31,7 +31,7 @@ const SIDEBAR_WIDTH = "16rem"
 const SIDEBAR_WIDTH_MOBILE = "18rem"
 const SIDEBAR_WIDTH_ICON = "3rem"
 const SIDEBAR_KEYBOARD_SHORTCUT = "b"
-const SIDEBAR_BUTTON_CLIP_PATH = "polygon(0%_0%,100%_0%,100%_25%,92.5%_40%,92.5%_60%,100%_75%,100%_100%,0%_100%)"
+const SIDEBAR_BUTTON_CLIP_PATH = "polygon(0%_0%,100%_0%,95%_50%,100%_100%,0%_100%)"
 
 type SidebarContextProps = {
   state: "expanded" | "collapsed"
