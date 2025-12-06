@@ -1,7 +1,7 @@
 import * as React from "react"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { Flower, Component } from "lucide-react"
+import { Flower, Component, Hourglass } from "lucide-react"
 
 export function HeroMedieval() {
   return (
@@ -11,6 +11,7 @@ export function HeroMedieval() {
         <div className="flex flex-col space-y-6">
           <Badge variant="secondary" className="w-fit">
             SOON
+            <Hourglass />
           </Badge>
 
           <div className="flex gap-4 items-center sm:gap-6">
@@ -18,7 +19,7 @@ export function HeroMedieval() {
               <Flower className="w-5 h-5 sm:w-6 sm:h-6" />
               <Component className="w-5 h-5 sm:w-6 sm:h-6" />
             </div>
-            <h1 className="text-4xl font-bold sm:text-5xl md:text-6xl lg:text-7xl leading-tight">
+            <h1 className="text-4xl font-bold sm:text-5xl md:text-6xl lg:text-6xl leading-tight">
               Components Forged
               <br />
               in Ancient Tradition

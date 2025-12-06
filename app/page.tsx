@@ -38,7 +38,12 @@ export default function Home() {
       {/* Component Demos */}
       <div id="showcase" className="container mx-auto px-8 py-20">
         <div className="mb-16 flex flex-col items-center">
-          <h2 className="text-4xl font-bold md:text-5xl flex items-center gap-4"><Component />The Arsenal <Component /></h2>
+          {/* Medieval banner with single triangle cut on each side */}
+          <div className="px-8 py-4 bg-secondary " style={{
+            clipPath: "polygon(0% 0%, 100% 0%, 95% 50%, 100% 100%, 0% 100%, 5% 50%)"
+          }}>
+            <h2 className="text-4xl font-bold md:text-5xl flex items-center gap-4 text-primary-foreground"><Component />The Arsenal <Component /></h2>
+          </div>
           <p className="mt-4 text-muted-foreground">
             - Instruments of craft, forged for the modern realm -
           </p>
