@@ -8,6 +8,7 @@ import { CheckboxDemo } from "./(demos)/checkbox-demo";
 import { SliderDemo } from "./(demos)/slider-demo";
 import { Component } from "lucide-react";
 import { AccordionDemo } from "./(demos)/accordion-demo";
+import { DrawerDemo } from "./(demos)/drawer-demo";
 
 export default function Home() {
   return (
@@ -82,6 +83,7 @@ export default function Home() {
             <div className="grid gap-8 md:grid-cols-2">
               <CardDemo />
               <AccordionDemo />
+              <DrawerDemo />
             </div>
           </div>
 

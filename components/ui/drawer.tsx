@@ -2,6 +2,7 @@
 
 import * as React from "react"
 import { Drawer as DrawerPrimitive } from "vaul"
+import { Component } from "lucide-react"
 
 import { cn } from "@/lib/utils"
 
@@ -65,7 +66,13 @@ function DrawerContent({
         )}
         {...props}
       >
-        <div className="bg-muted mx-auto mt-4 hidden h-2 w-[100px] shrink-0 rounded-full group-data-[vaul-drawer-direction=bottom]/drawer-content:block" />
+        <div className="justify-center mx-auto mt-4 hidden h-2 w-[100px] shrink-0 rounded-full group-data-[vaul-drawer-direction=bottom]/drawer-content:block">
+          <div className="flex mx-auto text-secondary  items-center translate-y-[-11px]">
+            <span className="text-3xl">-</span>
+            <Component className="size-4 mx-auto" />
+            <span className="text-3xl">-</span>
+          </div>
+        </div>
         {children}
       </DrawerPrimitive.Content>
     </DrawerPortal>
