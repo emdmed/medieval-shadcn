@@ -38,6 +38,10 @@ export function ThemeToggle() {
         return <Sparkles className="h-[1.2rem] w-[1.2rem]" />
       case "estel-dark":
         return <Sparkles className="h-[1.2rem] w-[1.2rem]" />
+      case "haldir":
+        return <Sparkles className="h-[1.2rem] w-[1.2rem]" />
+      case "haldir-dark":
+        return <Sparkles className="h-[1.2rem] w-[1.2rem]" />
       default:
         return <Sun className="h-[1.2rem] w-[1.2rem]" />
     }
@@ -67,6 +71,14 @@ export function ThemeToggle() {
         <DropdownMenuItem onClick={() => setTheme("estel-dark")}>
           <Sparkles className="mr-2 h-4 w-4 opacity-70" />
           <span>Estel Dark</span>
+        </DropdownMenuItem>
+        <DropdownMenuItem onClick={() => setTheme("haldir")}>
+          <Sparkles className="mr-2 h-4 w-4" />
+          <span>Haldir</span>
+        </DropdownMenuItem>
+        <DropdownMenuItem onClick={() => setTheme("haldir-dark")}>
+          <Sparkles className="mr-2 h-4 w-4 opacity-70" />
+          <span>Haldir Dark</span>
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>

@@ -32,7 +32,7 @@ export default function RootLayout({
         <ThemeProvider
           attribute="data-theme"
           defaultTheme="light"
-          themes={["light", "dark", "estel", "estel-dark"]}
+          themes={["light", "dark", "estel", "estel-dark", "haldir", "haldir-dark"]}
           enableSystem={false}
           disableTransitionOnChange
         >

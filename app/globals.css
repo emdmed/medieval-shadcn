@@ -1,7 +1,7 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-@custom-variant dark (&:is([data-theme="dark"] *, [data-theme="estel-dark"] *));
+@custom-variant dark (&:is([data-theme="dark"] *, [data-theme="estel-dark"] *, [data-theme="haldir-dark"] *));
 
 :root {
   --background: oklch(0.9471 0.0034 67.7819);
@@ -132,6 +132,158 @@
   --shadow-lg: 0px 1px 4px 0px hsl(30 25% 45% / 0.12), 0px 4px 6px -1px hsl(30 25% 45% / 0.12);
   --shadow-xl: 0px 1px 4px 0px hsl(30 25% 45% / 0.14), 0px 8px 10px -1px hsl(30 25% 45% / 0.14);
   --shadow-2xl: 0px 1px 4px 0px hsl(30 25% 45% / 0.18);
+}
+
+/* Haldir Theme - Light (Lothlórien Elven Guard) */
+:root[data-theme="haldir"] {
+  /* Warm ivory background with golden undertones */
+  --background: oklch(0.96 0.015 65);
+  --foreground: oklch(0.22 0.030 285);
+
+  /* Cream cards with warm tones */
+  --card: oklch(0.98 0.012 65);
+  --card-foreground: oklch(0.22 0.030 285);
+
+  /* Popover - lighter cream */
+  --popover: oklch(0.99 0.010 65);
+  --popover-foreground: oklch(0.22 0.030 285);
+
+  /* Rich elven gold - armor and trim */
+  --primary: oklch(0.68 0.15 70);
+  --primary-foreground: oklch(0.12 0.015 70);
+
+  /* Deep crimson red - banners and accents */
+  --secondary: oklch(0.48 0.18 25);
+  --secondary-foreground: oklch(0.98 0.008 25);
+
+  /* Cool muted tones with violet undertone */
+  --muted: oklch(0.90 0.015 280);
+  --muted-foreground: oklch(0.45 0.025 285);
+
+  /* Burnished bronze accent */
+  --accent: oklch(0.65 0.10 50);
+  --accent-foreground: oklch(0.98 0.008 50);
+
+  /* Muted red for destructive */
+  --destructive: oklch(0.55 0.18 25);
+  --destructive-foreground: oklch(0.98 0.006 25);
+
+  /* Cool borders with violet undertone */
+  --border: oklch(0.75 0.020 280);
+  --input: oklch(0.92 0.015 280);
+  --ring: oklch(0.68 0.12 70);
+
+  /* Chart colors - gold and red harmony */
+  --chart-1: oklch(0.70 0.15 70);  /* Bright gold */
+  --chart-2: oklch(0.52 0.18 25);  /* Deep red */
+  --chart-3: oklch(0.62 0.12 50);  /* Burnished bronze */
+  --chart-4: oklch(0.58 0.10 35);  /* Amber */
+  --chart-5: oklch(0.48 0.15 10);  /* Dark crimson */
+
+  /* Sidebar - warm golden tones */
+  --sidebar: oklch(0.95 0.015 65);
+  --sidebar-foreground: oklch(0.24 0.028 285);
+  --sidebar-primary: oklch(0.68 0.15 70);
+  --sidebar-primary-foreground: oklch(0.12 0.015 70);
+  --sidebar-accent: oklch(0.88 0.05 60);
+  --sidebar-accent-foreground: oklch(0.26 0.028 285);
+  --sidebar-border: oklch(0.72 0.025 280);
+  --sidebar-ring: oklch(0.68 0.15 70);
+
+  --font-sans: MedievalSharp, ui-serif, serif;
+  --font-serif: MedievalSharp, ui-serif, serif;
+  --font-mono: MedievalSharp, ui-serif, serif;
+  --radius: 0.75rem;
+  --shadow-x: 0px;
+  --shadow-y: 1px;
+  --shadow-blur: 4px;
+  --shadow-spread: 0px;
+  --shadow-opacity: 0.08;
+  --shadow-color: #8b6914;
+  --shadow-2xs: 0px 1px 3px 0px hsl(45 75% 30% / 0.06);
+  --shadow-xs: 0px 1px 3px 0px hsl(45 75% 30% / 0.08);
+  --shadow-sm: 0px 1px 4px 0px hsl(45 75% 30% / 0.10), 0px 1px 2px -1px hsl(45 75% 30% / 0.10);
+  --shadow: 0px 1px 4px 0px hsl(45 75% 30% / 0.10), 0px 1px 2px -1px hsl(45 75% 30% / 0.10);
+  --shadow-md: 0px 2px 6px 0px hsl(45 75% 30% / 0.12), 0px 2px 4px -1px hsl(45 75% 30% / 0.12);
+  --shadow-lg: 0px 4px 8px 0px hsl(45 75% 30% / 0.14), 0px 4px 6px -1px hsl(45 75% 30% / 0.14);
+  --shadow-xl: 0px 8px 12px 0px hsl(45 75% 30% / 0.16), 0px 8px 10px -1px hsl(45 75% 30% / 0.16);
+  --shadow-2xl: 0px 12px 16px 0px hsl(45 75% 30% / 0.18);
+}
+
+/* Haldir Theme - Dark (Lothlórien Night Guard) */
+:root[data-theme="haldir-dark"] {
+  /* Deep cool darkness with violet undertone */
+  --background: oklch(0.12 0.025 280);
+  --foreground: oklch(0.88 0.020 285);
+
+  /* Darker cool cards with violet undertone */
+  --card: oklch(0.16 0.022 280);
+  --card-foreground: oklch(0.88 0.020 285);
+
+  /* Popover - slightly lighter violet */
+  --popover: oklch(0.18 0.020 280);
+  --popover-foreground: oklch(0.88 0.020 285);
+
+  /* Radiant gold - torchlight and magical glow */
+  --primary: oklch(0.75 0.16 75);
+  --primary-foreground: oklch(0.10 0.025 280);
+
+  /* Vibrant crimson - banner red in firelight */
+  --secondary: oklch(0.55 0.20 25);
+  --secondary-foreground: oklch(0.98 0.008 25);
+
+  /* Dark cool muted with violet undertone */
+  --muted: oklch(0.20 0.020 280);
+  --muted-foreground: oklch(0.62 0.025 285);
+
+  /* Burnished dark bronze accent with violet background */
+  --accent: oklch(0.26 0.022 280);
+  --accent-foreground: oklch(0.88 0.08 65);
+
+  /* Destructive red */
+  --destructive: oklch(0.52 0.20 25);
+  --destructive-foreground: oklch(0.96 0.008 25);
+
+  /* Cool borders with violet undertone */
+  --border: oklch(0.28 0.022 280);
+  --input: oklch(0.18 0.020 280);
+  --ring: oklch(0.75 0.14 75);
+
+  /* Chart colors - gold and red in darkness */
+  --chart-1: oklch(0.72 0.16 75);  /* Luminous gold */
+  --chart-2: oklch(0.58 0.20 25);  /* Bright crimson */
+  --chart-3: oklch(0.65 0.12 50);  /* Glowing bronze */
+  --chart-4: oklch(0.60 0.10 35);  /* Ember amber */
+  --chart-5: oklch(0.52 0.16 15);  /* Deep red */
+
+  /* Sidebar - dark cool wood with violet undertone */
+  --sidebar: oklch(0.14 0.023 280);
+  --sidebar-foreground: oklch(0.86 0.020 285);
+  --sidebar-primary: oklch(0.75 0.16 75);
+  --sidebar-primary-foreground: oklch(0.10 0.025 280);
+  --sidebar-accent: oklch(0.24 0.022 280);
+  --sidebar-accent-foreground: oklch(0.84 0.025 285);
+  --sidebar-border: oklch(0.26 0.022 280);
+  --sidebar-ring: oklch(0.75 0.16 75);
+
+  --font-sans: MedievalSharp, ui-serif, serif;
+  --font-serif: MedievalSharp, ui-serif, serif;
+  --font-mono: MedievalSharp, ui-serif, serif;
+  --radius: 0.75rem;
+  --shadow-x: 0px;
+  --shadow-y: 1px;
+  --shadow-blur: 6px;
+  --shadow-spread: 0px;
+  --shadow-opacity: 0.40;
+  --shadow-color: #000000;
+  --shadow-2xs: 0px 1px 4px 0px hsl(45 50% 8% / 0.40);
+  --shadow-xs: 0px 1px 4px 0px hsl(45 50% 8% / 0.45);
+  --shadow-sm: 0px 1px 6px 0px hsl(45 50% 8% / 0.50), 0px 1px 3px -1px hsl(45 50% 8% / 0.50);
+  --shadow: 0px 1px 6px 0px hsl(45 50% 8% / 0.50), 0px 1px 3px -1px hsl(45 50% 8% / 0.50);
+  --shadow-md: 0px 2px 8px 0px hsl(45 50% 8% / 0.55), 0px 2px 4px -1px hsl(45 50% 8% / 0.55);
+  --shadow-lg: 0px 4px 12px 0px hsl(45 50% 8% / 0.60), 0px 4px 6px -1px hsl(45 50% 8% / 0.60);
+  --shadow-xl: 0px 8px 16px 0px hsl(45 50% 8% / 0.65), 0px 8px 10px -1px hsl(45 50% 8% / 0.65);
+  --shadow-2xl: 0px 12px 24px 0px hsl(45 50% 8% / 0.70);
 }
 
 /* Estel Theme - Dark (LOTR Moria/Mirkwood inspired) */
@@ -388,6 +540,30 @@
                       linear-gradient(315deg, #18161c 25%, #0f0e12 25%);
     background-position: 20px 0, 20px 0, 0 0, 0 0;
     background-size: 20px 20px;
+    background-repeat: repeat;
+  }
+
+  /* Haldir Theme Background - warm golden pattern */
+  :root[data-theme="haldir"] body {
+    background-color: #f5f0e8;
+    background-image: linear-gradient(135deg, #ebe3d5 25%, transparent 25%),
+                      linear-gradient(225deg, #ebe3d5 25%, transparent 25%),
+                      linear-gradient(45deg, #ebe3d5 25%, transparent 25%),
+                      linear-gradient(315deg, #ebe3d5 25%, #f5f0e8 25%);
+    background-position: 18px 0, 18px 0, 0 0, 0 0;
+    background-size: 18px 18px;
+    background-repeat: repeat;
+  }
+
+  /* Haldir Dark Theme Background - warm darkness with ember glow */
+  :root[data-theme="haldir-dark"] body {
+    background-color: #0f0d0a;
+    background-image: linear-gradient(135deg, #181410 25%, transparent 25%),
+                      linear-gradient(225deg, #181410 25%, transparent 25%),
+                      linear-gradient(45deg, #181410 25%, transparent 25%),
+                      linear-gradient(315deg, #181410 25%, #0f0d0a 25%);
+    background-position: 18px 0, 18px 0, 0 0, 0 0;
+    background-size: 18px 18px;
     background-repeat: repeat;
   }
 }
