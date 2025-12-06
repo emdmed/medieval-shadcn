@@ -6,6 +6,7 @@ import { BadgeDemo } from "./(demos)/badge-demo";
 import { CardDemo } from "./(demos)/card-demo";
 import { CheckboxDemo } from "./(demos)/checkbox-demo";
 import { SliderDemo } from "./(demos)/slider-demo";
+import { Component } from "lucide-react";
 
 export default function Home() {
   return (
@@ -34,10 +35,10 @@ export default function Home() {
 
       {/* Component Demos */}
       <div id="showcase" className="container mx-auto px-8 py-20">
-        <div className="mb-16 text-center">
-          <h2 className="text-4xl font-bold md:text-5xl">The Arsenal</h2>
+        <div className="mb-16 flex flex-col items-center">
+          <h2 className="text-4xl font-bold md:text-5xl flex items-center gap-4"><Component />The Arsenal <Component /></h2>
           <p className="mt-4 text-muted-foreground">
-            Instruments of craft, forged for the modern realm
+            - Instruments of craft, forged for the modern realm -
           </p>
         </div>
 
@@ -50,6 +51,7 @@ export default function Home() {
               <Button variant="secondary">Secondary</Button>
               <Button variant="outline">Outline</Button>
               <Button variant="ghost">Ghost</Button>
+              <Button variant="destructive">Destructive</Button>
             </div>
           </div>
 

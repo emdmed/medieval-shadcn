@@ -6,8 +6,9 @@ function Card({ className, ...props }: React.ComponentProps<"div">) {
   return (
     <div
       data-slot="card"
+      style={{ borderStyle: "groove" }}
       className={cn(
-        "bg-card text-card-foreground flex flex-col gap-6 rounded border  py-6 shadow-sm",
+        "bg-card text-card-foreground flex flex-col gap-6 border-4 rounded py-6 shadow-sm border-secondary/60",
         className
       )}
       {...props}

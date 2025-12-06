@@ -1,12 +1,11 @@
 import * as React from "react"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Separator } from "@/components/ui/separator"
+import { Flower, Component } from "lucide-react"
 
 export function HeroMedieval() {
   return (
-    <section className="container mx-auto px-4">
+    <section className="container mx-auto px-4 py-8">
       <div className="grid min-h-screen grid-cols-1 items-center gap-12 lg:grid-cols-2">
         {/* Left: Text Content */}
         <div className="flex flex-col">
@@ -14,11 +13,21 @@ export function HeroMedieval() {
             SOON
           </Badge>
 
-          <h1 className="mt-6 text-5xl font-bold md:text-6xl lg:text-7xl">
-            Components Forged
-            <br />
-            in Ancient Tradition
-          </h1>
+          <div className="flex gap-6 items-center">
+            <div className="flex gap-2 items-center">
+              <Flower />
+              <Component />
+            </div>
+            <h1 className="mt-6 text-5xl font-bold md:text-6xl lg:text-7xl">
+              Components Forged
+              <br />
+              in Ancient Tradition
+            </h1>
+            <div className="flex gap-2 items-center">
+              <Component />
+              <Flower />
+            </div>
+          </div>
 
           <p className="mt-6 text-lg text-muted-foreground">
             Tempered with geometric precision. Wrought upon the anvil of shadcn/ui.

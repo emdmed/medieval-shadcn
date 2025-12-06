@@ -29,7 +29,7 @@ export function AlertDialogDemo() {
         </AlertDialogHeader>
         <AlertDialogFooter>
           <AlertDialogCancel>Nay! I retreat in terror!</AlertDialogCancel>
-          <AlertDialogAction>AYE, TO DOOM!</AlertDialogAction>
+          <AlertDialogAction>+ AYE, TO DOOM! +</AlertDialogAction>
         </AlertDialogFooter>
       </AlertDialogContent>
     </AlertDialog>

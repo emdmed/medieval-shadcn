@@ -24,7 +24,7 @@ export function CheckboxDemo() {
         <Checkbox id="toggle" disabled />
         <Label htmlFor="toggle">Enable notifications</Label>
       </div>
-      <Label className="hover:bg-accent/50 flex items-start gap-3 rounded-lg border p-3 has-[[aria-checked=true]]:border-secondary has-[[aria-checked=true]]:bg-blue-50 dark:has-[[aria-checked=true]]:border-secondary dark:has-[[aria-checked=true]]:bg-blue-950">
+      <Label style={{ borderStyle: "groove" }} className="hover:bg-accent/50 flex items-start gap-3 border-secondary/30 rounded border-4 p-3 has-[[aria-checked=true]]:border-secondary/80 has-[[aria-checked=true]]:bg-blue-50 dark:has-[[aria-checked=true]]:border-secondary dark:has-[[aria-checked=true]]:bg-blue-950">
         <Checkbox
           id="toggle-2"
           defaultChecked
