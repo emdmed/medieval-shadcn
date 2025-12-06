@@ -7,6 +7,7 @@ import { CardDemo } from "./(demos)/card-demo";
 import { CheckboxDemo } from "./(demos)/checkbox-demo";
 import { SliderDemo } from "./(demos)/slider-demo";
 import { Component } from "lucide-react";
+import { AccordionDemo } from "./(demos)/accordion-demo";
 
 export default function Home() {
   return (
@@ -70,6 +71,7 @@ export default function Home() {
               <div>
                 <p className="mb-3 text-sm font-medium text-muted-foreground">Badge</p>
                 <BadgeDemo />
+
               </div>
             </div>
           </div>
@@ -79,9 +81,10 @@ export default function Home() {
             <h3 className="mb-6 text-2xl font-bold">Display Constructs</h3>
             <div className="grid gap-8 md:grid-cols-2">
               <CardDemo />
-              <AlertDialogDemo />
+              <AccordionDemo />
             </div>
           </div>
+
         </div>
       </div>
     </div>
