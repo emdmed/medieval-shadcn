@@ -1,7 +1,7 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-@custom-variant dark (&:is(.dark *));
+@custom-variant dark (&:is([data-theme="dark"] *, [data-theme="estel-dark"] *));
 
 :root {
   --background: oklch(0.9471 0.0034 67.7819);
@@ -58,39 +58,62 @@
   --spacing: 0.26rem;
 }
 
-.dark {
-  --background: oklch(0.1797 0.0043 308.1928);
-  --foreground: oklch(0.8109 0 0);
-  --card: oklch(0.1822 0 0);
-  --card-foreground: oklch(0.8109 0 0);
-  --popover: oklch(0.1797 0.0043 308.1928);
-  --popover-foreground: oklch(0.8109 0 0);
-  --primary: oklch(0.7214 0.1337 49.9802);
-  --primary-foreground: oklch(0.1797 0.0043 308.1928);
-  --secondary: oklch(0.5940 0.0443 196.0233);
-  --secondary-foreground: oklch(0.1797 0.0043 308.1928);
-  --muted: oklch(0.2520 0 0);
-  --muted-foreground: oklch(0.6268 0 0);
-  --accent: oklch(0.3211 0 0);
-  --accent-foreground: oklch(0.8109 0 0);
-  --destructive: oklch(0.5940 0.0443 196.0233);
-  --destructive-foreground: oklch(0.1797 0.0043 308.1928);
-  --border: oklch(0.2520 0 0);
-  --input: oklch(0.2520 0 0);
-  --ring: oklch(0.7214 0.1337 49.9802);
-  --chart-1: oklch(0.5940 0.0443 196.0233);
-  --chart-2: oklch(0.7214 0.1337 49.9802);
-  --chart-3: oklch(0.8721 0.0864 68.5474);
-  --chart-4: oklch(0.6268 0 0);
-  --chart-5: oklch(0.6830 0 0);
-  --sidebar: oklch(0.1822 0 0);
-  --sidebar-foreground: oklch(0.8109 0 0);
-  --sidebar-primary: oklch(0.7214 0.1337 49.9802);
-  --sidebar-primary-foreground: oklch(0.1797 0.0043 308.1928);
-  --sidebar-accent: oklch(0.3211 0 0);
-  --sidebar-accent-foreground: oklch(0.8109 0 0);
-  --sidebar-border: oklch(0.2520 0 0);
-  --sidebar-ring: oklch(0.7214 0.1337 49.9802);
+/* Estel Theme - Light (Lord of the Rings inspired) */
+:root[data-theme="estel"] {
+  /* Soft parchment background with golden undertones */
+  --background: oklch(0.95 0.02 85);
+  --foreground: oklch(0.25 0.03 75);
+
+  /* Aged parchment cards with subtle warmth */
+  --card: oklch(0.97 0.015 80);
+  --card-foreground: oklch(0.25 0.03 75);
+
+  /* Popover - lighter parchment */
+  --popover: oklch(0.98 0.01 85);
+  --popover-foreground: oklch(0.25 0.03 75);
+
+  /* Rich elven gold - warm and luminous */
+  --primary: oklch(0.60 0.15 75);
+  --primary-foreground: oklch(0.98 0.01 85);
+
+  /* Deep forest green from the Shire */
+  --secondary: oklch(0.45 0.10 150);
+  --secondary-foreground: oklch(0.98 0.01 85);
+
+  /* Muted earthy tones */
+  --muted: oklch(0.90 0.02 80);
+  --muted-foreground: oklch(0.50 0.025 75);
+
+  /* Warm amber accent */
+  --accent: oklch(0.85 0.08 70);
+  --accent-foreground: oklch(0.30 0.03 75);
+
+  /* Muted red for destructive (less harsh) */
+  --destructive: oklch(0.55 0.15 25);
+  --destructive-foreground: oklch(0.98 0.005 25);
+
+  /* Natural stone borders */
+  --border: oklch(0.75 0.03 75);
+  --input: oklch(0.92 0.02 80);
+  --ring: oklch(0.60 0.12 75);
+
+  /* Chart colors - natural palette */
+  --chart-1: oklch(0.55 0.12 150); /* Forest green */
+  --chart-2: oklch(0.65 0.15 75);  /* Golden amber */
+  --chart-3: oklch(0.60 0.10 40);  /* Earthy orange */
+  --chart-4: oklch(0.50 0.08 200); /* Muted blue */
+  --chart-5: oklch(0.45 0.10 320); /* Deep purple */
+
+  /* Sidebar - aged wood tones */
+  --sidebar: oklch(0.93 0.025 75);
+  --sidebar-foreground: oklch(0.30 0.03 75);
+  --sidebar-primary: oklch(0.60 0.15 75);
+  --sidebar-primary-foreground: oklch(0.98 0.01 85);
+  --sidebar-accent: oklch(0.88 0.05 70);
+  --sidebar-accent-foreground: oklch(0.30 0.03 75);
+  --sidebar-border: oklch(0.70 0.04 75);
+  --sidebar-ring: oklch(0.60 0.15 75);
+
   --font-sans: MedievalSharp, ui-serif, serif;
   --font-serif: MedievalSharp, ui-serif, serif;
   --font-mono: MedievalSharp, ui-serif, serif;
@@ -99,16 +122,167 @@
   --shadow-y: 1px;
   --shadow-blur: 4px;
   --shadow-spread: 0px;
-  --shadow-opacity: 0.05;
+  --shadow-opacity: 0.08;
+  --shadow-color: #8b7355;
+  --shadow-2xs: 0px 1px 4px 0px hsl(30 25% 45% / 0.04);
+  --shadow-xs: 0px 1px 4px 0px hsl(30 25% 45% / 0.06);
+  --shadow-sm: 0px 1px 4px 0px hsl(30 25% 45% / 0.08), 0px 1px 2px -1px hsl(30 25% 45% / 0.08);
+  --shadow: 0px 1px 4px 0px hsl(30 25% 45% / 0.08), 0px 1px 2px -1px hsl(30 25% 45% / 0.08);
+  --shadow-md: 0px 1px 4px 0px hsl(30 25% 45% / 0.10), 0px 2px 4px -1px hsl(30 25% 45% / 0.10);
+  --shadow-lg: 0px 1px 4px 0px hsl(30 25% 45% / 0.12), 0px 4px 6px -1px hsl(30 25% 45% / 0.12);
+  --shadow-xl: 0px 1px 4px 0px hsl(30 25% 45% / 0.14), 0px 8px 10px -1px hsl(30 25% 45% / 0.14);
+  --shadow-2xl: 0px 1px 4px 0px hsl(30 25% 45% / 0.18);
+}
+
+/* Estel Theme - Dark (LOTR Moria/Mirkwood inspired) */
+:root[data-theme="estel-dark"] {
+  /* Deep stone cavern background with cool undertones */
+  --background: oklch(0.12 0.015 240);
+  --foreground: oklch(0.88 0.02 80);
+
+  /* Darker stone cards */
+  --card: oklch(0.16 0.012 240);
+  --card-foreground: oklch(0.88 0.02 80);
+
+  /* Popover - slightly lighter stone */
+  --popover: oklch(0.18 0.01 240);
+  --popover-foreground: oklch(0.88 0.02 80);
+
+  /* Dim torchlight gold - muted but warm */
+  --primary: oklch(0.55 0.12 70);
+  --primary-foreground: oklch(0.12 0.015 240);
+
+  /* Deep forest green - Mirkwood darkness */
+  --secondary: oklch(0.35 0.08 150);
+  --secondary-foreground: oklch(0.95 0.01 150);
+
+  /* Muted stone tones */
+  --muted: oklch(0.20 0.01 240);
+  --muted-foreground: oklch(0.60 0.02 80);
+
+  /* Darker amber accent */
+  --accent: oklch(0.22 0.02 240);
+  --accent-foreground: oklch(0.85 0.05 70);
+
+  /* Muted destructive red */
+  --destructive: oklch(0.45 0.12 25);
+  --destructive-foreground: oklch(0.95 0.005 25);
+
+  /* Darker stone borders */
+  --border: oklch(0.28 0.015 240);
+  --input: oklch(0.18 0.015 240);
+  --ring: oklch(0.55 0.10 70);
+
+  /* Chart colors - darker natural palette */
+  --chart-1: oklch(0.45 0.10 150); /* Deep forest green */
+  --chart-2: oklch(0.55 0.12 70);  /* Dim gold */
+  --chart-3: oklch(0.50 0.08 40);  /* Darker earth */
+  --chart-4: oklch(0.40 0.06 220); /* Deep blue */
+  --chart-5: oklch(0.38 0.08 320); /* Deep purple */
+
+  /* Sidebar - aged dark wood and stone */
+  --sidebar: oklch(0.14 0.015 240);
+  --sidebar-foreground: oklch(0.85 0.02 80);
+  --sidebar-primary: oklch(0.55 0.12 70);
+  --sidebar-primary-foreground: oklch(0.12 0.015 240);
+  --sidebar-accent: oklch(0.24 0.02 240);
+  --sidebar-accent-foreground: oklch(0.85 0.05 70);
+  --sidebar-border: oklch(0.26 0.015 240);
+  --sidebar-ring: oklch(0.55 0.12 70);
+
+  --font-sans: MedievalSharp, ui-serif, serif;
+  --font-serif: MedievalSharp, ui-serif, serif;
+  --font-mono: MedievalSharp, ui-serif, serif;
+  --radius: 0.75rem;
+  --shadow-x: 0px;
+  --shadow-y: 1px;
+  --shadow-blur: 6px;
+  --shadow-spread: 0px;
+  --shadow-opacity: 0.30;
   --shadow-color: #000000;
-  --shadow-2xs: 0px 1px 4px 0px hsl(0 0% 0% / 0.03);
-  --shadow-xs: 0px 1px 4px 0px hsl(0 0% 0% / 0.03);
-  --shadow-sm: 0px 1px 4px 0px hsl(0 0% 0% / 0.05), 0px 1px 2px -1px hsl(0 0% 0% / 0.05);
-  --shadow: 0px 1px 4px 0px hsl(0 0% 0% / 0.05), 0px 1px 2px -1px hsl(0 0% 0% / 0.05);
-  --shadow-md: 0px 1px 4px 0px hsl(0 0% 0% / 0.05), 0px 2px 4px -1px hsl(0 0% 0% / 0.05);
-  --shadow-lg: 0px 1px 4px 0px hsl(0 0% 0% / 0.05), 0px 4px 6px -1px hsl(0 0% 0% / 0.05);
-  --shadow-xl: 0px 1px 4px 0px hsl(0 0% 0% / 0.05), 0px 8px 10px -1px hsl(0 0% 0% / 0.05);
-  --shadow-2xl: 0px 1px 4px 0px hsl(0 0% 0% / 0.13);
+  --shadow-2xs: 0px 1px 4px 0px hsl(0 0% 0% / 0.30);
+  --shadow-xs: 0px 1px 4px 0px hsl(0 0% 0% / 0.35);
+  --shadow-sm: 0px 1px 6px 0px hsl(0 0% 0% / 0.40), 0px 1px 3px -1px hsl(0 0% 0% / 0.40);
+  --shadow: 0px 1px 6px 0px hsl(0 0% 0% / 0.40), 0px 1px 3px -1px hsl(0 0% 0% / 0.40);
+  --shadow-md: 0px 2px 8px 0px hsl(0 0% 0% / 0.45), 0px 2px 4px -1px hsl(0 0% 0% / 0.45);
+  --shadow-lg: 0px 4px 12px 0px hsl(0 0% 0% / 0.50), 0px 4px 6px -1px hsl(0 0% 0% / 0.50);
+  --shadow-xl: 0px 8px 16px 0px hsl(0 0% 0% / 0.55), 0px 8px 10px -1px hsl(0 0% 0% / 0.55);
+  --shadow-2xl: 0px 12px 24px 0px hsl(0 0% 0% / 0.60);
+}
+
+:root[data-theme="dark"] {
+  /* Dark background - inverted from light warm beige to dark warm brown */
+  --background: oklch(0.15 0.015 67.7819);
+  --foreground: oklch(0.90 0.01 67.7819);
+
+  /* Card - slightly lighter than background */
+  --card: oklch(0.18 0.012 67.7819);
+  --card-foreground: oklch(0.90 0.01 67.7819);
+
+  /* Popover - same as card for consistency */
+  --popover: oklch(0.18 0.012 67.7819);
+  --popover-foreground: oklch(0.90 0.01 67.7819);
+
+  /* Primary - brightened rust/brown, maintaining medieval warmth */
+  --primary: oklch(0.65 0.15 22.2869);
+  --primary-foreground: oklch(0.15 0.015 67.7819);
+
+  /* Secondary - lightened from dark blue, maintaining hue */
+  --secondary: oklch(0.50 0.08 235.8618);
+  --secondary-foreground: oklch(0.95 0.005 235.8618);
+
+  /* Muted - darker for backgrounds, lighter foreground */
+  --muted: oklch(0.22 0.01 67.7819);
+  --muted-foreground: oklch(0.65 0.015 67.7819);
+
+  /* Accent - medium tone for highlights */
+  --accent: oklch(0.25 0.015 67.7819);
+  --accent-foreground: oklch(0.90 0.01 67.7819);
+
+  /* Destructive - maintain visibility with adjusted red */
+  --destructive: oklch(0.55 0.20 25.3313);
+  --destructive-foreground: oklch(0.98 0.005 25.3313);
+
+  /* Border - subtle but visible */
+  --border: oklch(0.30 0.015 67.7819);
+  --input: oklch(0.22 0.015 67.7819);
+  --ring: oklch(0.65 0.12 22.2869);
+
+  /* Charts - adjusted for dark mode visibility */
+  --chart-1: oklch(0.60 0.08 196.0233);
+  --chart-2: oklch(0.70 0.13 49.9802);
+  --chart-3: oklch(0.75 0.10 68.5474);
+  --chart-4: oklch(0.55 0.05 67.7819);
+  --chart-5: oklch(0.60 0.05 67.7819);
+
+  /* Sidebar - slightly different from main background */
+  --sidebar: oklch(0.17 0.012 67.7819);
+  --sidebar-foreground: oklch(0.90 0.01 67.7819);
+  --sidebar-primary: oklch(0.65 0.15 22.2869);
+  --sidebar-primary-foreground: oklch(0.15 0.015 67.7819);
+  --sidebar-accent: oklch(0.28 0.02 67.7819);
+  --sidebar-accent-foreground: oklch(0.90 0.01 67.7819);
+  --sidebar-border: oklch(0.28 0.015 67.7819);
+  --sidebar-ring: oklch(0.65 0.15 22.2869);
+
+  --font-sans: MedievalSharp, ui-serif, serif;
+  --font-serif: MedievalSharp, ui-serif, serif;
+  --font-mono: MedievalSharp, ui-serif, serif;
+  --radius: 0.75rem;
+  --shadow-x: 0px;
+  --shadow-y: 1px;
+  --shadow-blur: 4px;
+  --shadow-spread: 0px;
+  --shadow-opacity: 0.15;
+  --shadow-color: #000000;
+  --shadow-2xs: 0px 1px 4px 0px hsl(0 0% 0% / 0.20);
+  --shadow-xs: 0px 1px 4px 0px hsl(0 0% 0% / 0.25);
+  --shadow-sm: 0px 1px 4px 0px hsl(0 0% 0% / 0.30), 0px 1px 2px -1px hsl(0 0% 0% / 0.30);
+  --shadow: 0px 1px 4px 0px hsl(0 0% 0% / 0.30), 0px 1px 2px -1px hsl(0 0% 0% / 0.30);
+  --shadow-md: 0px 1px 4px 0px hsl(0 0% 0% / 0.35), 0px 2px 4px -1px hsl(0 0% 0% / 0.35);
+  --shadow-lg: 0px 1px 4px 0px hsl(0 0% 0% / 0.40), 0px 4px 6px -1px hsl(0 0% 0% / 0.40);
+  --shadow-xl: 0px 1px 4px 0px hsl(0 0% 0% / 0.45), 0px 8px 10px -1px hsl(0 0% 0% / 0.45);
+  --shadow-2xl: 0px 1px 4px 0px hsl(0 0% 0% / 0.50);
 }
 
 @theme inline {
@@ -179,6 +353,41 @@
                       linear-gradient(315deg, #efe8e2 25%, #EFEDEB 25%);
     background-position: 23px 0, 23px 0, 0 0, 0 0;
     background-size: 23px 23px;
+    background-repeat: repeat;
+  }
+
+  :root[data-theme="dark"] body {
+    background-color: #1a1512;
+    background-image: linear-gradient(135deg, #241d18 25%, transparent 25%),
+                      linear-gradient(225deg, #241d18 25%, transparent 25%),
+                      linear-gradient(45deg, #241d18 25%, transparent 25%),
+                      linear-gradient(315deg, #241d18 25%, #1a1512 25%);
+    background-position: 23px 0, 23px 0, 0 0, 0 0;
+    background-size: 23px 23px;
+    background-repeat: repeat;
+  }
+
+  /* Estel Theme Background - aged parchment with golden tones */
+  :root[data-theme="estel"] body {
+    background-color: #f5f0e8;
+    background-image: linear-gradient(135deg, #f0e8d8 25%, transparent 25%),
+                      linear-gradient(225deg, #f0e8d8 25%, transparent 25%),
+                      linear-gradient(45deg, #f0e8d8 25%, transparent 25%),
+                      linear-gradient(315deg, #f0e8d8 25%, #f5f0e8 25%);
+    background-position: 20px 0, 20px 0, 0 0, 0 0;
+    background-size: 20px 20px;
+    background-repeat: repeat;
+  }
+
+  /* Estel Dark Theme Background - deep stone cavern */
+  :root[data-theme="estel-dark"] body {
+    background-color: #0f0e12;
+    background-image: linear-gradient(135deg, #18161c 25%, transparent 25%),
+                      linear-gradient(225deg, #18161c 25%, transparent 25%),
+                      linear-gradient(45deg, #18161c 25%, transparent 25%),
+                      linear-gradient(315deg, #18161c 25%, #0f0e12 25%);
+    background-position: 20px 0, 20px 0, 0 0, 0 0;
+    background-size: 20px 20px;
     background-repeat: repeat;
   }
 }

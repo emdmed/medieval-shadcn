@@ -30,9 +30,10 @@ export default function RootLayout({
         className={`${medievalSharp.variable} ${geistMono.variable} antialiased`}
       >
         <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
+          attribute="data-theme"
+          defaultTheme="light"
+          themes={["light", "dark", "estel", "estel-dark"]}
+          enableSystem={false}
           disableTransitionOnChange
         >
           {children}
