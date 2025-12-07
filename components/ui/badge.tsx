@@ -41,7 +41,7 @@ function Badge({
       {...props}
     >
       <span className="translate-y-[1px] inline-flex items-center gap-1 [&>svg]:size-3 [&>svg]:translate-y-[-1px]">
-        {!asChild && <>• {children} •</>}
+        {!asChild && <>· {children} ·</>}
         {asChild && children}
       </span>
     </Comp>
