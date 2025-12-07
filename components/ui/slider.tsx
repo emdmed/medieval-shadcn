@@ -54,7 +54,7 @@ function Slider({
         <SliderPrimitive.Thumb
           data-slot="slider-thumb"
           key={index}
-          className="border-primary ring-ring/50 bg-primary text-primary-foreground flex items-center justify-center size-4 shrink-0 rounded-full border shadow-sm transition-[color,box-shadow] hover:ring-4 focus-visible:ring-4 focus-visible:outline-hidden disabled:pointer-events-none disabled:opacity-50"
+          className="border-background ring-ring/50 rounded bg-primary rotate-45 text-primary-foreground flex items-center justify-center size-4 shrink-0  border-2 shadow-sm transition-[color,box-shadow] hover:ring-4 focus-visible:ring-4 focus-visible:outline-hidden disabled:pointer-events-none disabled:opacity-50"
         >
           <Shell className="size-3" />
         </SliderPrimitive.Thumb>

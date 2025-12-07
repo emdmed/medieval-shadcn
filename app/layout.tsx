@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { MedievalSharp, Geist_Mono } from "next/font/google";
+import { Metamorphous, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 
-const medievalSharp = MedievalSharp({
+const metamorphous = Metamorphous({
   weight: "400",
-  variable: "--font-medieval-sharp",
+  variable: "--font-metamorphous",
   subsets: ["latin"],
 });
 
@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${medievalSharp.variable} ${geistMono.variable} antialiased`}
+        className={`${metamorphous.variable} ${geistMono.variable} antialiased`}
       >
         <ThemeProvider
           attribute="data-theme"

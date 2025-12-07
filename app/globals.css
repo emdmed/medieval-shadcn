@@ -36,9 +36,9 @@
   --sidebar-accent-foreground: oklch(0 0 0);
   --sidebar-border: oklch(0.3001 0.1357 261.6846);
   --sidebar-ring: oklch(0.4833 0.1655 22.2869);
-  --font-sans: MedievalSharp, ui-serif, serif;
-  --font-serif: MedievalSharp, ui-serif, serif;
-  --font-mono: MedievalSharp, ui-serif, serif;
+  --font-sans: Metamorphous, ui-serif, serif;
+  --font-serif: Metamorphous, ui-serif, serif;
+  --font-mono: Metamorphous, ui-serif, serif;
   --radius: 0.75rem;
   --shadow-x: 0px;
   --shadow-y: 1px;
@@ -114,9 +114,9 @@
   --sidebar-border: oklch(0.70 0.04 75);
   --sidebar-ring: oklch(0.60 0.15 75);
 
-  --font-sans: MedievalSharp, ui-serif, serif;
-  --font-serif: MedievalSharp, ui-serif, serif;
-  --font-mono: MedievalSharp, ui-serif, serif;
+  --font-sans: Metamorphous, ui-serif, serif;
+  --font-serif: Metamorphous, ui-serif, serif;
+  --font-mono: Metamorphous, ui-serif, serif;
   --radius: 0.75rem;
   --shadow-x: 0px;
   --shadow-y: 1px;
@@ -190,9 +190,9 @@
   --sidebar-border: oklch(0.72 0.025 280);
   --sidebar-ring: oklch(0.68 0.15 70);
 
-  --font-sans: MedievalSharp, ui-serif, serif;
-  --font-serif: MedievalSharp, ui-serif, serif;
-  --font-mono: MedievalSharp, ui-serif, serif;
+  --font-sans: Metamorphous, ui-serif, serif;
+  --font-serif: Metamorphous, ui-serif, serif;
+  --font-mono: Metamorphous, ui-serif, serif;
   --radius: 0.75rem;
   --shadow-x: 0px;
   --shadow-y: 1px;
@@ -266,9 +266,9 @@
   --sidebar-border: oklch(0.26 0.022 280);
   --sidebar-ring: oklch(0.75 0.16 75);
 
-  --font-sans: MedievalSharp, ui-serif, serif;
-  --font-serif: MedievalSharp, ui-serif, serif;
-  --font-mono: MedievalSharp, ui-serif, serif;
+  --font-sans: Metamorphous, ui-serif, serif;
+  --font-serif: Metamorphous, ui-serif, serif;
+  --font-mono: Metamorphous, ui-serif, serif;
   --radius: 0.75rem;
   --shadow-x: 0px;
   --shadow-y: 1px;
@@ -342,9 +342,9 @@
   --sidebar-border: oklch(0.26 0.015 240);
   --sidebar-ring: oklch(0.55 0.12 70);
 
-  --font-sans: MedievalSharp, ui-serif, serif;
-  --font-serif: MedievalSharp, ui-serif, serif;
-  --font-mono: MedievalSharp, ui-serif, serif;
+  --font-sans: Metamorphous, ui-serif, serif;
+  --font-serif: Metamorphous, ui-serif, serif;
+  --font-mono: Metamorphous, ui-serif, serif;
   --radius: 0.75rem;
   --shadow-x: 0px;
   --shadow-y: 1px;
@@ -417,9 +417,9 @@
   --sidebar-border: oklch(0.28 0.015 67.7819);
   --sidebar-ring: oklch(0.65 0.15 22.2869);
 
-  --font-sans: MedievalSharp, ui-serif, serif;
-  --font-serif: MedievalSharp, ui-serif, serif;
-  --font-mono: MedievalSharp, ui-serif, serif;
+  --font-sans: Metamorphous, ui-serif, serif;
+  --font-serif: Metamorphous, ui-serif, serif;
+  --font-mono: Metamorphous, ui-serif, serif;
   --radius: 0.75rem;
   --shadow-x: 0px;
   --shadow-y: 1px;
