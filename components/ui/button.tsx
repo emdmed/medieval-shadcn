@@ -53,9 +53,9 @@ function Button({
   const isGhost = variant === "ghost"
 
   const content = !asChild ? (
-    isPrimary ? <>+ {children} +</> :
-      isSecondary ? <>- {children} -</> :
-        isGhost ? <>| {children} |</> :
+    isPrimary ? <span className="inline-flex translate-y-[2px]">+ {children} +</span> :
+      isSecondary ? <span className="inline-flex translate-y-[2px]">- {children} -</span> :
+        isGhost ? <span className="inline-flex translate-y-[2px]">| {children} |</span> :
           children
   ) : children
 
