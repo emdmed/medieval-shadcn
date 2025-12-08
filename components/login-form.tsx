@@ -9,6 +9,8 @@ import {
   FieldSeparator,
 } from "@/components/ui/field"
 import { Input } from "@/components/ui/input"
+import { Switch } from "./ui/switch"
+import { Label } from "./ui/label"
 
 export function LoginForm({
   className,
@@ -50,6 +52,10 @@ export function LoginForm({
               <Field>
                 <Button type="submit">Login</Button>
               </Field>
+              <div className="flex justify-end items-center space-x-2">
+                <Switch id="airplane-mode" />
+                <Label htmlFor="airplane-mode">Remember me</Label>
+              </div>
               <FieldSeparator className="*:data-[slot=field-separator-content]:bg-card">
                 Or continue with
               </FieldSeparator>
@@ -91,7 +97,7 @@ export function LoginForm({
             <img
               src="/images/medieval-login.png"
               alt="Medieval Login"
-              className="absolute inset-0 h-full w-full object-cover dark:brightness-[0.2] dark:grayscale"
+              className="absolute inset-0 h-full w-full object-cover"
             />
           </div>
         </CardContent>
