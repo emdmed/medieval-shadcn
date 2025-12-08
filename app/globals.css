@@ -28,11 +28,11 @@
   --chart-3: oklch(0.8721 0.0864 68.5474);
   --chart-4: oklch(0.6268 0 0);
   --chart-5: oklch(0.6830 0 0);
-  --sidebar: oklch(0.9629 0.0025 228.7843);
+    --sidebar: oklch(0.8444 0.0608 90.4300);
   --sidebar-foreground: oklch(0.2101 0.0318 264.6645);
   --sidebar-primary: oklch(0.4833 0.1655 22.2869);
   --sidebar-primary-foreground: oklch(0.5569 0.2162 28.0677);
-  --sidebar-accent: oklch(0.8075 0.0615 231.1344);
+  --sidebar-accent: oklch(0.8865 0.0457 90.4058);
   --sidebar-accent-foreground: oklch(0 0 0);
   --sidebar-border: oklch(0.3001 0.1357 261.6846);
   --sidebar-ring: oklch(0.4833 0.1655 22.2869);
@@ -56,6 +56,10 @@
   --shadow-2xl: 0px 1px 4px 0px hsl(0 0% 0% / 0.13);
   --tracking-normal: 0em;
   --spacing: 0.26rem;
+  
+  /* Pattern colors for default theme */
+  --pattern-color1: #EFEDEB;
+  --pattern-color2: rgb(219 215 210 / 0.2);
 }
 
 /* Estel Theme - Light (Lord of the Rings inspired) */
@@ -132,6 +136,10 @@
   --shadow-lg: 0px 1px 4px 0px hsl(30 25% 45% / 0.12), 0px 4px 6px -1px hsl(30 25% 45% / 0.12);
   --shadow-xl: 0px 1px 4px 0px hsl(30 25% 45% / 0.14), 0px 8px 10px -1px hsl(30 25% 45% / 0.14);
   --shadow-2xl: 0px 1px 4px 0px hsl(30 25% 45% / 0.18);
+  
+  /* Pattern colors for Estel theme */
+  --pattern-color1: #f5f0e8;
+  --pattern-color2: rgb(226 217 200 / 0.7);
 }
 
 /* Haldir Theme - Light (Lothlórien Elven Guard) */
@@ -208,6 +216,10 @@
   --shadow-lg: 0px 4px 8px 0px hsl(45 75% 30% / 0.14), 0px 4px 6px -1px hsl(45 75% 30% / 0.14);
   --shadow-xl: 0px 8px 12px 0px hsl(45 75% 30% / 0.16), 0px 8px 10px -1px hsl(45 75% 30% / 0.16);
   --shadow-2xl: 0px 12px 16px 0px hsl(45 75% 30% / 0.18);
+  
+  /* Pattern colors for Haldir theme */
+  --pattern-color1: #f5f0e8;
+  --pattern-color2: rgb(221 211 190 / 0.7);
 }
 
 /* Haldir Theme - Dark (Lothlórien Night Guard) */
@@ -284,6 +296,10 @@
   --shadow-lg: 0px 4px 12px 0px hsl(45 50% 8% / 0.60), 0px 4px 6px -1px hsl(45 50% 8% / 0.60);
   --shadow-xl: 0px 8px 16px 0px hsl(45 50% 8% / 0.65), 0px 8px 10px -1px hsl(45 50% 8% / 0.65);
   --shadow-2xl: 0px 12px 24px 0px hsl(45 50% 8% / 0.70);
+  
+  /* Pattern colors for Haldir Dark theme */
+  --pattern-color1: #0f0d0a;
+  --pattern-color2: rgb(30 25 20 / 0.7);
 }
 
 /* Estel Theme - Dark (LOTR Moria/Mirkwood inspired) */
@@ -360,6 +376,10 @@
   --shadow-lg: 0px 4px 12px 0px hsl(0 0% 0% / 0.50), 0px 4px 6px -1px hsl(0 0% 0% / 0.50);
   --shadow-xl: 0px 8px 16px 0px hsl(0 0% 0% / 0.55), 0px 8px 10px -1px hsl(0 0% 0% / 0.55);
   --shadow-2xl: 0px 12px 24px 0px hsl(0 0% 0% / 0.60);
+  
+  /* Pattern colors for Estel Dark theme */
+  --pattern-color1: #0f0e12;
+  --pattern-color2: rgb(28 26 34 / 0.7);
 }
 
 :root[data-theme="dark"] {
@@ -435,6 +455,10 @@
   --shadow-lg: 0px 1px 4px 0px hsl(0 0% 0% / 0.40), 0px 4px 6px -1px hsl(0 0% 0% / 0.40);
   --shadow-xl: 0px 1px 4px 0px hsl(0 0% 0% / 0.45), 0px 8px 10px -1px hsl(0 0% 0% / 0.45);
   --shadow-2xl: 0px 1px 4px 0px hsl(0 0% 0% / 0.50);
+  
+  /* Pattern colors for default dark theme */
+  --pattern-color1: #1a1512;
+  --pattern-color2: rgb(40 33 27 / 0.7);
 }
 
 @theme inline {
@@ -497,73 +521,134 @@
 
   body {
     @apply text-foreground;
-    background-color: #EFEDEB;
-    opacity: 1;
-    background-image: linear-gradient(135deg, #efe8e2 25%, transparent 25%),
-                      linear-gradient(225deg, #efe8e2 25%, transparent 25%),
-                      linear-gradient(45deg, #efe8e2 25%, transparent 25%),
-                      linear-gradient(315deg, #efe8e2 25%, #EFEDEB 25%);
-    background-position: 23px 0, 23px 0, 0 0, 0 0;
-    background-size: 23px 23px;
-    background-repeat: repeat;
+    position: relative;
+    overflow-x: hidden;
+    background-color: var(--pattern-color1);
+    background-size: 80px 80px;
+    background-image:
+      linear-gradient(
+        -45deg,
+        var(--pattern-color2) 0%,
+        var(--pattern-color2) 5%,
+        transparent 5%,
+        transparent 20%,
+        var(--pattern-color2) 20%,
+        var(--pattern-color2) 30%,
+        transparent 30%,
+        transparent 70%,
+        var(--pattern-color2) 70%,
+        var(--pattern-color2) 80%,
+        transparent 80%,
+        transparent 95%,
+        var(--pattern-color2) 95%,
+        var(--pattern-color2) 100%
+      ),
+      linear-gradient(
+        45deg,
+        var(--pattern-color2) 0%,
+        var(--pattern-color2) 5%,
+        transparent 5%,
+        transparent 20%,
+        var(--pattern-color2) 20%,
+        var(--pattern-color2) 30%,
+        transparent 30%,
+        transparent 70%,
+        var(--pattern-color2) 70%,
+        var(--pattern-color2) 80%,
+        transparent 80%,
+        transparent 95%,
+        var(--pattern-color2) 95%,
+        var(--pattern-color2) 100%
+      );
   }
 
-  :root[data-theme="dark"] body {
-    background-color: #1a1512;
-    background-image: linear-gradient(135deg, #241d18 25%, transparent 25%),
-                      linear-gradient(225deg, #241d18 25%, transparent 25%),
-                      linear-gradient(45deg, #241d18 25%, transparent 25%),
-                      linear-gradient(315deg, #241d18 25%, #1a1512 25%);
-    background-position: 23px 0, 23px 0, 0 0, 0 0;
-    background-size: 23px 23px;
-    background-repeat: repeat;
+  /* Utility class: Main diagonal pattern */
+  .pattern-bg {
+    background-color: var(--pattern-color1);
+    background-size: 80px 80px;
+    background-image:
+      linear-gradient(
+        -45deg,
+        var(--pattern-color2) 0%,
+        var(--pattern-color2) 5%,
+        transparent 5%,
+        transparent 20%,
+        var(--pattern-color2) 20%,
+        var(--pattern-color2) 30%,
+        transparent 30%,
+        transparent 70%,
+        var(--pattern-color2) 70%,
+        var(--pattern-color2) 80%,
+        transparent 80%,
+        transparent 95%,
+        var(--pattern-color2) 95%,
+        var(--pattern-color2) 100%
+      ),
+      linear-gradient(
+        45deg,
+        var(--pattern-color2) 0%,
+        var(--pattern-color2) 5%,
+        transparent 5%,
+        transparent 20%,
+        var(--pattern-color2) 20%,
+        var(--pattern-color2) 30%,
+        transparent 30%,
+        transparent 70%,
+        var(--pattern-color2) 70%,
+        var(--pattern-color2) 80%,
+        transparent 80%,
+        transparent 95%,
+        var(--pattern-color2) 95%,
+        var(--pattern-color2) 100%
+      );
   }
 
-  /* Estel Theme Background - aged parchment with golden tones */
-  :root[data-theme="estel"] body {
-    background-color: #f5f0e8;
-    background-image: linear-gradient(135deg, #f0e8d8 25%, transparent 25%),
-                      linear-gradient(225deg, #f0e8d8 25%, transparent 25%),
-                      linear-gradient(45deg, #f0e8d8 25%, transparent 25%),
-                      linear-gradient(315deg, #f0e8d8 25%, #f5f0e8 25%);
-    background-position: 20px 0, 20px 0, 0 0, 0 0;
-    background-size: 20px 20px;
-    background-repeat: repeat;
-  }
-
-  /* Estel Dark Theme Background - deep stone cavern */
-  :root[data-theme="estel-dark"] body {
-    background-color: #0f0e12;
-    background-image: linear-gradient(135deg, #18161c 25%, transparent 25%),
-                      linear-gradient(225deg, #18161c 25%, transparent 25%),
-                      linear-gradient(45deg, #18161c 25%, transparent 25%),
-                      linear-gradient(315deg, #18161c 25%, #0f0e12 25%);
-    background-position: 20px 0, 20px 0, 0 0, 0 0;
-    background-size: 20px 20px;
-    background-repeat: repeat;
-  }
-
-  /* Haldir Theme Background - warm golden pattern */
-  :root[data-theme="haldir"] body {
-    background-color: #f5f0e8;
-    background-image: linear-gradient(135deg, #ebe3d5 25%, transparent 25%),
-                      linear-gradient(225deg, #ebe3d5 25%, transparent 25%),
-                      linear-gradient(45deg, #ebe3d5 25%, transparent 25%),
-                      linear-gradient(315deg, #ebe3d5 25%, #f5f0e8 25%);
-    background-position: 18px 0, 18px 0, 0 0, 0 0;
-    background-size: 18px 18px;
-    background-repeat: repeat;
-  }
-
-  /* Haldir Dark Theme Background - warm darkness with ember glow */
-  :root[data-theme="haldir-dark"] body {
-    background-color: #0f0d0a;
-    background-image: linear-gradient(135deg, #181410 25%, transparent 25%),
-                      linear-gradient(225deg, #181410 25%, transparent 25%),
-                      linear-gradient(45deg, #181410 25%, transparent 25%),
-                      linear-gradient(315deg, #181410 25%, #0f0d0a 25%);
-    background-position: 18px 0, 18px 0, 0 0, 0 0;
-    background-size: 18px 18px;
-    background-repeat: repeat;
+  /* Utility class: Chocolate rain pattern with sidebar colors */
+  .pattern-sidebar {
+    --unit: 10px;
+    background-color: var(--sidebar);
+    background-size: calc(var(--unit) * 2.4) calc(var(--unit) * 3.2);
+    background-position: 
+      calc(var(--unit) * -2) calc(var(--unit) * -2), 
+      calc(var(--unit) * -0.8) calc(var(--unit) * -0.4), 
+      calc(var(--unit) * 0.2) calc(var(--unit) * 0.2), 
+      calc(var(--unit) * 0.2) calc(var(--unit) * 1.2), 
+      calc(var(--unit) * -1) calc(var(--unit) * 1.8), 
+      calc(var(--unit) * -1) calc(var(--unit) * -0.4);
+    background-image:
+      conic-gradient(
+        from 0deg at calc(var(--unit) * 2) calc(var(--unit) * 2.2),
+        transparent 90deg,
+        var(--sidebar-accent) 90deg,
+        var(--sidebar-accent) 180deg,
+        transparent 180deg
+      ),
+      conic-gradient(
+        from 0deg at calc(var(--unit) * 2) calc(var(--unit) * 2.2),
+        transparent 90deg,
+        var(--sidebar-accent) 90deg,
+        var(--sidebar-accent) 180deg,
+        transparent 180deg
+      ),
+      radial-gradient(
+        circle at center center,
+        var(--sidebar-accent) calc(var(--unit) * 0.2),
+        transparent calc(var(--unit) * 0.2)
+      ),
+      radial-gradient(
+        circle at center center,
+        var(--sidebar-accent) calc(var(--unit) * 0.2),
+        transparent calc(var(--unit) * 0.2)
+      ),
+      radial-gradient(
+        circle at center center,
+        var(--sidebar-accent) calc(var(--unit) * 0.2),
+        transparent calc(var(--unit) * 0.2)
+      ),
+      radial-gradient(
+        circle at center center,
+        var(--sidebar-accent) calc(var(--unit) * 0.2),
+        transparent calc(var(--unit) * 0.2)
+      );
   }
 }

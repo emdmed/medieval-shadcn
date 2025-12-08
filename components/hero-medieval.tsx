@@ -1,7 +1,6 @@
 import * as React from "react"
 import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
-import { Flower, Component, Hourglass } from "lucide-react"
+import { Flower, Component } from "lucide-react"
 import { ThemeToggle } from "@/components/theme-toggle"
 
 export function HeroMedieval() {
@@ -13,17 +12,14 @@ export function HeroMedieval() {
       <div className="grid min-h-[calc(100vh-8rem)] grid-cols-1 items-center gap-8 sm:gap-12 lg:grid-cols-2">
         {/* Left: Text Content */}
         <div className="flex flex-col space-y-6">
-          <Badge variant="secondary" className="w-fit">
-            SOON
-            <Hourglass />
-          </Badge>
+
 
           <div className="flex gap-4 items-center sm:gap-6">
             <div className="hidden sm:flex gap-2 items-center shrink-0">
               <Flower className="w-5 h-5 sm:w-6 sm:h-6" />
               <Component className="w-5 h-5 sm:w-6 sm:h-6" />
             </div>
-            <h1 className="text-4xl font-bold sm:text-5xl md:text-6xl lg:text-6xl leading-tight">
+            <h1 className="text-4xl font-bold sm:text-5xl md:text-6xl lg:text-5xl leading-tight">
               Components Forged
               <br />
               in Ancient Tradition
