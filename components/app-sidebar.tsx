@@ -35,61 +35,61 @@ import {
 
 const data = {
   user: {
-    name: "shadcn",
-    email: "m@example.com",
+    name: "Lord Shadcn",
+    email: "royal@castle.realm",
     avatar: "/avatars/shadcn.jpg",
   },
   navMain: [
     {
-      title: "Dashboard",
+      title: "Kingdom Overview",
       url: "#",
       icon: IconDashboard,
     },
     {
-      title: "Lifecycle",
+      title: "Royal Affairs",
       url: "#",
       icon: IconListDetails,
     },
     {
-      title: "Analytics",
+      title: "Treasury Records",
       url: "#",
       icon: IconChartBar,
     },
     {
-      title: "Projects",
+      title: "Fiefdoms",
       url: "#",
       icon: IconFolder,
     },
     {
-      title: "Team",
+      title: "Court Members",
       url: "#",
       icon: IconUsers,
     },
   ],
   navClouds: [
     {
-      title: "Capture",
+      title: "Conquests",
       icon: IconCamera,
       isActive: true,
       url: "#",
       items: [
         {
-          title: "Active Proposals",
+          title: "Active Campaigns",
           url: "#",
         },
         {
-          title: "Archived",
+          title: "Historical Battles",
           url: "#",
         },
       ],
     },
     {
-      title: "Proposal",
+      title: "Royal Decrees",
       icon: IconFileDescription,
       url: "#",
       items: [
         {
-          title: "Active Proposals",
+          title: "Active Decrees",
           url: "#",
         },
         {
@@ -99,16 +99,16 @@ const data = {
       ],
     },
     {
-      title: "Prompts",
+      title: "Scrolls",
       icon: IconFileAi,
       url: "#",
       items: [
         {
-          title: "Active Proposals",
+          title: "Active Scrolls",
           url: "#",
         },
         {
-          title: "Archived",
+          title: "Ancient Archives",
           url: "#",
         },
       ],
@@ -116,34 +116,34 @@ const data = {
   ],
   navSecondary: [
     {
-      title: "Settings",
+      title: "Royal Settings",
       url: "#",
       icon: IconSettings,
     },
     {
-      title: "Get Help",
+      title: "Summon Advisor",
       url: "#",
       icon: IconHelp,
     },
     {
-      title: "Search",
+      title: "Seek Knowledge",
       url: "#",
       icon: IconSearch,
     },
   ],
   documents: [
     {
-      name: "Data Library",
+      name: "Royal Archives",
       url: "#",
       icon: IconDatabase,
     },
     {
-      name: "Reports",
+      name: "Kingdom Reports",
       url: "#",
       icon: IconReport,
     },
     {
-      name: "Word Assistant",
+      name: "Scribe Assistant",
       url: "#",
       icon: IconFileWord,
     },
@@ -152,7 +152,7 @@ const data = {
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   return (
-    <Sidebar className="pattern-sidebar" collapsible="offcanvas" {...props}>
+    <Sidebar collapsible="offcanvas" {...props}>
       <SidebarHeader>
         <SidebarMenu>
           <SidebarMenuItem>
@@ -162,7 +162,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
             >
               <a href="#">
                 <IconInnerShadowTop className="!size-5" />
-                <span className="text-base font-semibold">Acme Inc.</span>
+                <span className="text-base font-semibold">Kingdom of Acme</span>
               </a>
             </SidebarMenuButton>
           </SidebarMenuItem>

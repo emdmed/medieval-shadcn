@@ -1,614 +1,614 @@
 [
   {
     "id": 1,
-    "header": "Cover page",
-    "type": "Cover page",
+    "header": "Royal Decree",
+    "type": "Proclamation",
     "status": "In Process",
     "target": "18",
     "limit": "5",
-    "reviewer": "Eddie Lake"
+    "reviewer": "Sir Eddie"
   },
   {
     "id": 2,
-    "header": "Table of contents",
-    "type": "Table of contents",
+    "header": "Harvest Records",
+    "type": "Treasury Records",
     "status": "Done",
     "target": "29",
     "limit": "24",
-    "reviewer": "Eddie Lake"
+    "reviewer": "Sir Eddie"
   },
   {
     "id": 3,
-    "header": "Executive summary",
-    "type": "Narrative",
+    "header": "Kingdom Expansion Plans",
+    "type": "Strategic Scroll",
     "status": "Done",
     "target": "10",
     "limit": "13",
-    "reviewer": "Eddie Lake"
+    "reviewer": "Sir Eddie"
   },
   {
     "id": 4,
-    "header": "Technical approach",
-    "type": "Narrative",
+    "header": "Fortification Strategy",
+    "type": "Strategic Scroll",
     "status": "Done",
     "target": "27",
     "limit": "23",
-    "reviewer": "Jamik Tashpulatov"
+    "reviewer": "Lord Jamik"
   },
   {
     "id": 5,
-    "header": "Design",
-    "type": "Narrative",
+    "header": "Castle Architecture",
+    "type": "Strategic Scroll",
     "status": "In Process",
     "target": "2",
     "limit": "16",
-    "reviewer": "Jamik Tashpulatov"
+    "reviewer": "Lord Jamik"
   },
   {
     "id": 6,
-    "header": "Capabilities",
-    "type": "Narrative",
+    "header": "Military Capabilities",
+    "type": "Strategic Scroll",
     "status": "In Process",
     "target": "20",
     "limit": "8",
-    "reviewer": "Jamik Tashpulatov"
+    "reviewer": "Lord Jamik"
   },
   {
     "id": 7,
-    "header": "Integration with existing systems",
-    "type": "Narrative",
+    "header": "Alliance Agreements",
+    "type": "Strategic Scroll",
     "status": "In Process",
     "target": "19",
     "limit": "21",
-    "reviewer": "Jamik Tashpulatov"
+    "reviewer": "Lord Jamik"
   },
   {
     "id": 8,
-    "header": "Innovation and Advantages",
-    "type": "Narrative",
+    "header": "Trade Routes and Commerce",
+    "type": "Strategic Scroll",
     "status": "Done",
     "target": "25",
     "limit": "26",
-    "reviewer": "Assign reviewer"
+    "reviewer": "Assign overseer"
   },
   {
     "id": 9,
-    "header": "Overview of EMR's Innovative Solutions",
-    "type": "Technical content",
+    "header": "Blacksmith Innovations",
+    "type": "Craft Knowledge",
     "status": "Done",
     "target": "7",
     "limit": "23",
-    "reviewer": "Assign reviewer"
+    "reviewer": "Assign overseer"
   },
   {
     "id": 10,
-    "header": "Advanced Algorithms and Machine Learning",
-    "type": "Narrative",
+    "header": "Siege Warfare Tactics",
+    "type": "Strategic Scroll",
     "status": "Done",
     "target": "30",
     "limit": "28",
-    "reviewer": "Assign reviewer"
+    "reviewer": "Assign overseer"
   },
   {
     "id": 11,
-    "header": "Adaptive Communication Protocols",
-    "type": "Narrative",
+    "header": "Messenger Network",
+    "type": "Strategic Scroll",
     "status": "Done",
     "target": "9",
     "limit": "31",
-    "reviewer": "Assign reviewer"
+    "reviewer": "Assign overseer"
   },
   {
     "id": 12,
-    "header": "Advantages Over Current Technologies",
-    "type": "Narrative",
+    "header": "Superior Weaponry",
+    "type": "Strategic Scroll",
     "status": "Done",
     "target": "12",
     "limit": "0",
-    "reviewer": "Assign reviewer"
+    "reviewer": "Assign overseer"
   },
   {
     "id": 13,
-    "header": "Past Performance",
-    "type": "Narrative",
+    "header": "Historic Battle Records",
+    "type": "Strategic Scroll",
     "status": "Done",
     "target": "22",
     "limit": "33",
-    "reviewer": "Assign reviewer"
+    "reviewer": "Assign overseer"
   },
   {
     "id": 14,
-    "header": "Customer Feedback and Satisfaction Levels",
-    "type": "Narrative",
+    "header": "Peasant Satisfaction Survey",
+    "type": "Strategic Scroll",
     "status": "Done",
     "target": "15",
     "limit": "34",
-    "reviewer": "Assign reviewer"
+    "reviewer": "Assign overseer"
   },
   {
     "id": 15,
-    "header": "Implementation Challenges and Solutions",
-    "type": "Narrative",
+    "header": "Famine Prevention Measures",
+    "type": "Strategic Scroll",
     "status": "Done",
     "target": "3",
     "limit": "35",
-    "reviewer": "Assign reviewer"
+    "reviewer": "Assign overseer"
   },
   {
     "id": 16,
-    "header": "Security Measures and Data Protection Policies",
-    "type": "Narrative",
+    "header": "Castle Defense Systems",
+    "type": "Strategic Scroll",
     "status": "In Process",
     "target": "6",
     "limit": "36",
-    "reviewer": "Assign reviewer"
+    "reviewer": "Assign overseer"
   },
   {
     "id": 17,
-    "header": "Scalability and Future Proofing",
-    "type": "Narrative",
+    "header": "Future Conquest Planning",
+    "type": "Strategic Scroll",
     "status": "Done",
     "target": "4",
     "limit": "37",
-    "reviewer": "Assign reviewer"
+    "reviewer": "Assign overseer"
   },
   {
     "id": 18,
-    "header": "Cost-Benefit Analysis",
-    "type": "Plain language",
+    "header": "Tax Collection Analysis",
+    "type": "Common Tongue",
     "status": "Done",
     "target": "14",
     "limit": "38",
-    "reviewer": "Assign reviewer"
+    "reviewer": "Assign overseer"
   },
   {
     "id": 19,
-    "header": "User Training and Onboarding Experience",
-    "type": "Narrative",
+    "header": "Knight Training Program",
+    "type": "Strategic Scroll",
     "status": "Done",
     "target": "17",
     "limit": "39",
-    "reviewer": "Assign reviewer"
+    "reviewer": "Assign overseer"
   },
   {
     "id": 20,
-    "header": "Future Development Roadmap",
-    "type": "Narrative",
+    "header": "Kingdom Development Plan",
+    "type": "Strategic Scroll",
     "status": "Done",
     "target": "11",
     "limit": "40",
-    "reviewer": "Assign reviewer"
+    "reviewer": "Assign overseer"
   },
   {
     "id": 21,
-    "header": "System Architecture Overview",
-    "type": "Technical content",
+    "header": "Castle Infrastructure",
+    "type": "Craft Knowledge",
     "status": "In Process",
     "target": "24",
     "limit": "18",
-    "reviewer": "Maya Johnson"
+    "reviewer": "Lady Maya"
   },
   {
     "id": 22,
-    "header": "Risk Management Plan",
-    "type": "Narrative",
+    "header": "Threat Assessment",
+    "type": "Strategic Scroll",
     "status": "Done",
     "target": "15",
     "limit": "22",
-    "reviewer": "Carlos Rodriguez"
+    "reviewer": "Lord Carlos"
   },
   {
     "id": 23,
-    "header": "Compliance Documentation",
-    "type": "Legal",
+    "header": "Royal Law Codex",
+    "type": "Legal Decree",
     "status": "In Process",
     "target": "31",
     "limit": "27",
-    "reviewer": "Sarah Chen"
+    "reviewer": "Lady Sarah"
   },
   {
     "id": 24,
-    "header": "API Documentation",
-    "type": "Technical content",
+    "header": "Trade Agreement Records",
+    "type": "Craft Knowledge",
     "status": "Done",
     "target": "8",
     "limit": "12",
-    "reviewer": "Raj Patel"
+    "reviewer": "Lord Raj"
   },
   {
     "id": 25,
-    "header": "User Interface Mockups",
-    "type": "Visual",
+    "header": "Castle Floor Plans",
+    "type": "Visual Arts",
     "status": "In Process",
     "target": "19",
     "limit": "25",
-    "reviewer": "Leila Ahmadi"
+    "reviewer": "Lady Leila"
   },
   {
     "id": 26,
-    "header": "Database Schema",
-    "type": "Technical content",
+    "header": "Treasury Ledger",
+    "type": "Craft Knowledge",
     "status": "Done",
     "target": "22",
     "limit": "20",
-    "reviewer": "Thomas Wilson"
+    "reviewer": "Sir Thomas"
   },
   {
     "id": 27,
-    "header": "Testing Methodology",
-    "type": "Technical content",
+    "header": "Combat Training Methods",
+    "type": "Craft Knowledge",
     "status": "In Process",
     "target": "17",
     "limit": "14",
-    "reviewer": "Assign reviewer"
+    "reviewer": "Assign overseer"
   },
   {
     "id": 28,
-    "header": "Deployment Strategy",
-    "type": "Narrative",
+    "header": "Army Deployment Strategy",
+    "type": "Strategic Scroll",
     "status": "Done",
     "target": "26",
     "limit": "30",
-    "reviewer": "Eddie Lake"
+    "reviewer": "Sir Eddie"
   },
   {
     "id": 29,
-    "header": "Budget Breakdown",
-    "type": "Financial",
+    "header": "Royal Budget",
+    "type": "Financial Records",
     "status": "In Process",
     "target": "13",
     "limit": "16",
-    "reviewer": "Jamik Tashpulatov"
+    "reviewer": "Lord Jamik"
   },
   {
     "id": 30,
-    "header": "Market Analysis",
-    "type": "Research",
+    "header": "Regional Survey",
+    "type": "Research Scroll",
     "status": "Done",
     "target": "29",
     "limit": "32",
-    "reviewer": "Sophia Martinez"
+    "reviewer": "Lady Sophia"
   },
   {
     "id": 31,
-    "header": "Competitor Comparison",
-    "type": "Research",
+    "header": "Rival Kingdom Analysis",
+    "type": "Research Scroll",
     "status": "In Process",
     "target": "21",
     "limit": "19",
-    "reviewer": "Assign reviewer"
+    "reviewer": "Assign overseer"
   },
   {
     "id": 32,
-    "header": "Maintenance Plan",
-    "type": "Technical content",
+    "header": "Castle Maintenance Schedule",
+    "type": "Craft Knowledge",
     "status": "Done",
     "target": "16",
     "limit": "23",
-    "reviewer": "Alex Thompson"
+    "reviewer": "Sir Alex"
   },
   {
     "id": 33,
-    "header": "User Personas",
-    "type": "Research",
+    "header": "Subject Classifications",
+    "type": "Research Scroll",
     "status": "In Process",
     "target": "27",
     "limit": "24",
-    "reviewer": "Nina Patel"
+    "reviewer": "Lady Nina"
   },
   {
     "id": 34,
-    "header": "Accessibility Compliance",
-    "type": "Legal",
+    "header": "Guild Regulations",
+    "type": "Legal Decree",
     "status": "Done",
     "target": "18",
     "limit": "21",
-    "reviewer": "Assign reviewer"
+    "reviewer": "Assign overseer"
   },
   {
     "id": 35,
-    "header": "Performance Metrics",
-    "type": "Technical content",
+    "header": "Kingdom Prosperity Index",
+    "type": "Craft Knowledge",
     "status": "In Process",
     "target": "23",
     "limit": "26",
-    "reviewer": "David Kim"
+    "reviewer": "Lord David"
   },
   {
     "id": 36,
-    "header": "Disaster Recovery Plan",
-    "type": "Technical content",
+    "header": "Disaster Recovery Protocol",
+    "type": "Craft Knowledge",
     "status": "Done",
     "target": "14",
     "limit": "17",
-    "reviewer": "Jamik Tashpulatov"
+    "reviewer": "Lord Jamik"
   },
   {
     "id": 37,
-    "header": "Third-party Integrations",
-    "type": "Technical content",
+    "header": "Foreign Diplomatic Relations",
+    "type": "Craft Knowledge",
     "status": "In Process",
     "target": "25",
     "limit": "28",
-    "reviewer": "Eddie Lake"
+    "reviewer": "Sir Eddie"
   },
   {
     "id": 38,
-    "header": "User Feedback Summary",
-    "type": "Research",
+    "header": "Citizen Petitions Summary",
+    "type": "Research Scroll",
     "status": "Done",
     "target": "20",
     "limit": "15",
-    "reviewer": "Assign reviewer"
+    "reviewer": "Assign overseer"
   },
   {
     "id": 39,
-    "header": "Localization Strategy",
-    "type": "Narrative",
+    "header": "Regional Dialect Guide",
+    "type": "Strategic Scroll",
     "status": "In Process",
     "target": "12",
     "limit": "19",
-    "reviewer": "Maria Garcia"
+    "reviewer": "Lady Maria"
   },
   {
     "id": 40,
-    "header": "Mobile Compatibility",
-    "type": "Technical content",
+    "header": "Traveling Merchant Routes",
+    "type": "Craft Knowledge",
     "status": "Done",
     "target": "28",
     "limit": "31",
-    "reviewer": "James Wilson"
+    "reviewer": "Sir James"
   },
   {
     "id": 41,
-    "header": "Data Migration Plan",
-    "type": "Technical content",
+    "header": "Census Migration Plan",
+    "type": "Craft Knowledge",
     "status": "In Process",
     "target": "19",
     "limit": "22",
-    "reviewer": "Assign reviewer"
+    "reviewer": "Assign overseer"
   },
   {
     "id": 42,
-    "header": "Quality Assurance Protocols",
-    "type": "Technical content",
+    "header": "Quality Assurance Standards",
+    "type": "Craft Knowledge",
     "status": "Done",
     "target": "30",
     "limit": "33",
-    "reviewer": "Priya Singh"
+    "reviewer": "Lady Priya"
   },
   {
     "id": 43,
-    "header": "Stakeholder Analysis",
-    "type": "Research",
+    "header": "Noble Houses Registry",
+    "type": "Research Scroll",
     "status": "In Process",
     "target": "11",
     "limit": "14",
-    "reviewer": "Eddie Lake"
+    "reviewer": "Sir Eddie"
   },
   {
     "id": 44,
-    "header": "Environmental Impact Assessment",
-    "type": "Research",
+    "header": "Forest Conservation Report",
+    "type": "Research Scroll",
     "status": "Done",
     "target": "24",
     "limit": "27",
-    "reviewer": "Assign reviewer"
+    "reviewer": "Assign overseer"
   },
   {
     "id": 45,
-    "header": "Intellectual Property Rights",
-    "type": "Legal",
+    "header": "Land Ownership Claims",
+    "type": "Legal Decree",
     "status": "In Process",
     "target": "17",
     "limit": "20",
-    "reviewer": "Sarah Johnson"
+    "reviewer": "Lady Sarah"
   },
   {
     "id": 46,
-    "header": "Customer Support Framework",
-    "type": "Narrative",
+    "header": "Subject Relations Framework",
+    "type": "Strategic Scroll",
     "status": "Done",
     "target": "22",
     "limit": "25",
-    "reviewer": "Jamik Tashpulatov"
+    "reviewer": "Lord Jamik"
   },
   {
     "id": 47,
-    "header": "Version Control Strategy",
-    "type": "Technical content",
+    "header": "Chronicle Keeping Methods",
+    "type": "Craft Knowledge",
     "status": "In Process",
     "target": "15",
     "limit": "18",
-    "reviewer": "Assign reviewer"
+    "reviewer": "Assign overseer"
   },
   {
     "id": 48,
-    "header": "Continuous Integration Pipeline",
-    "type": "Technical content",
+    "header": "Armory Supply Chain",
+    "type": "Craft Knowledge",
     "status": "Done",
     "target": "26",
     "limit": "29",
-    "reviewer": "Michael Chen"
+    "reviewer": "Sir Michael"
   },
   {
     "id": 49,
-    "header": "Regulatory Compliance",
-    "type": "Legal",
+    "header": "Royal Law Compliance",
+    "type": "Legal Decree",
     "status": "In Process",
     "target": "13",
     "limit": "16",
-    "reviewer": "Assign reviewer"
+    "reviewer": "Assign overseer"
   },
   {
     "id": 50,
-    "header": "User Authentication System",
-    "type": "Technical content",
+    "header": "Gate Guard Procedures",
+    "type": "Craft Knowledge",
     "status": "Done",
     "target": "28",
     "limit": "31",
-    "reviewer": "Eddie Lake"
+    "reviewer": "Sir Eddie"
   },
   {
     "id": 51,
-    "header": "Data Analytics Framework",
-    "type": "Technical content",
+    "header": "Economic Analysis Methods",
+    "type": "Craft Knowledge",
     "status": "In Process",
     "target": "21",
     "limit": "24",
-    "reviewer": "Jamik Tashpulatov"
+    "reviewer": "Lord Jamik"
   },
   {
     "id": 52,
-    "header": "Cloud Infrastructure",
-    "type": "Technical content",
+    "header": "Kingdom Infrastructure",
+    "type": "Craft Knowledge",
     "status": "Done",
     "target": "16",
     "limit": "19",
-    "reviewer": "Assign reviewer"
+    "reviewer": "Assign overseer"
   },
   {
     "id": 53,
-    "header": "Network Security Measures",
-    "type": "Technical content",
+    "header": "Border Security Measures",
+    "type": "Craft Knowledge",
     "status": "In Process",
     "target": "29",
     "limit": "32",
-    "reviewer": "Lisa Wong"
+    "reviewer": "Lady Lisa"
   },
   {
     "id": 54,
-    "header": "Project Timeline",
-    "type": "Planning",
+    "header": "Campaign Timeline",
+    "type": "Battle Plans",
     "status": "Done",
     "target": "14",
     "limit": "17",
-    "reviewer": "Eddie Lake"
+    "reviewer": "Sir Eddie"
   },
   {
     "id": 55,
-    "header": "Resource Allocation",
-    "type": "Planning",
+    "header": "Resource Distribution",
+    "type": "Battle Plans",
     "status": "In Process",
     "target": "27",
     "limit": "30",
-    "reviewer": "Assign reviewer"
+    "reviewer": "Assign overseer"
   },
   {
     "id": 56,
-    "header": "Team Structure and Roles",
-    "type": "Planning",
+    "header": "Court Hierarchy",
+    "type": "Battle Plans",
     "status": "Done",
     "target": "20",
     "limit": "23",
-    "reviewer": "Jamik Tashpulatov"
+    "reviewer": "Lord Jamik"
   },
   {
     "id": 57,
-    "header": "Communication Protocols",
-    "type": "Planning",
+    "header": "Royal Messenger Protocol",
+    "type": "Battle Plans",
     "status": "In Process",
     "target": "15",
     "limit": "18",
-    "reviewer": "Assign reviewer"
+    "reviewer": "Assign overseer"
   },
   {
     "id": 58,
-    "header": "Success Metrics",
-    "type": "Planning",
+    "header": "Victory Metrics",
+    "type": "Battle Plans",
     "status": "Done",
     "target": "30",
     "limit": "33",
-    "reviewer": "Eddie Lake"
+    "reviewer": "Sir Eddie"
   },
   {
     "id": 59,
-    "header": "Internationalization Support",
-    "type": "Technical content",
+    "header": "Multi-Language Support",
+    "type": "Craft Knowledge",
     "status": "In Process",
     "target": "23",
     "limit": "26",
-    "reviewer": "Jamik Tashpulatov"
+    "reviewer": "Lord Jamik"
   },
   {
     "id": 60,
-    "header": "Backup and Recovery Procedures",
-    "type": "Technical content",
+    "header": "Archive Recovery Procedures",
+    "type": "Craft Knowledge",
     "status": "Done",
     "target": "18",
     "limit": "21",
-    "reviewer": "Assign reviewer"
+    "reviewer": "Assign overseer"
   },
   {
     "id": 61,
-    "header": "Monitoring and Alerting System",
-    "type": "Technical content",
+    "header": "Watch Tower Surveillance",
+    "type": "Craft Knowledge",
     "status": "In Process",
     "target": "25",
     "limit": "28",
-    "reviewer": "Daniel Park"
+    "reviewer": "Sir Daniel"
   },
   {
     "id": 62,
-    "header": "Code Review Guidelines",
-    "type": "Technical content",
+    "header": "Scribe Standards",
+    "type": "Craft Knowledge",
     "status": "Done",
     "target": "12",
     "limit": "15",
-    "reviewer": "Eddie Lake"
+    "reviewer": "Sir Eddie"
   },
   {
     "id": 63,
-    "header": "Documentation Standards",
-    "type": "Technical content",
+    "header": "Chronicle Documentation",
+    "type": "Craft Knowledge",
     "status": "In Process",
     "target": "27",
     "limit": "30",
-    "reviewer": "Jamik Tashpulatov"
+    "reviewer": "Lord Jamik"
   },
   {
     "id": 64,
-    "header": "Release Management Process",
-    "type": "Planning",
+    "header": "Decree Publication Process",
+    "type": "Battle Plans",
     "status": "Done",
     "target": "22",
     "limit": "25",
-    "reviewer": "Assign reviewer"
+    "reviewer": "Assign overseer"
   },
   {
     "id": 65,
-    "header": "Feature Prioritization Matrix",
-    "type": "Planning",
+    "header": "Quest Priority Matrix",
+    "type": "Battle Plans",
     "status": "In Process",
     "target": "19",
     "limit": "22",
-    "reviewer": "Emma Davis"
+    "reviewer": "Lady Emma"
   },
   {
     "id": 66,
-    "header": "Technical Debt Assessment",
-    "type": "Technical content",
+    "header": "Maintenance Backlog Review",
+    "type": "Craft Knowledge",
     "status": "Done",
     "target": "24",
     "limit": "27",
-    "reviewer": "Eddie Lake"
+    "reviewer": "Sir Eddie"
   },
   {
     "id": 67,
-    "header": "Capacity Planning",
-    "type": "Planning",
+    "header": "Population Capacity Planning",
+    "type": "Battle Plans",
     "status": "In Process",
     "target": "21",
     "limit": "24",
-    "reviewer": "Jamik Tashpulatov"
+    "reviewer": "Lord Jamik"
   },
   {
     "id": 68,
-    "header": "Service Level Agreements",
-    "type": "Legal",
+    "header": "Feudal Agreements",
+    "type": "Legal Decree",
     "status": "Done",
     "target": "26",
     "limit": "29",
-    "reviewer": "Assign reviewer"
+    "reviewer": "Assign overseer"
   }
 ]

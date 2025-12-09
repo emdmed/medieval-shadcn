@@ -23,41 +23,41 @@ export function LoginForm({
           <form className="p-6 md:p-8">
             <FieldGroup>
               <div className="flex flex-col items-center gap-2 text-center">
-                <h1 className="text-2xl font-bold">Welcome back</h1>
+                <h1 className="text-2xl font-bold">Hark! Ye Return</h1>
                 <p className="text-muted-foreground text-balance">
-                  Login to your Acme Inc account
+                  Enter thy Kingdom of Camelot
                 </p>
               </div>
               <Field>
-                <FieldLabel htmlFor="email">Email</FieldLabel>
+                <FieldLabel htmlFor="email">Royal Seal</FieldLabel>
                 <Input
                   id="email"
                   type="email"
-                  placeholder="m@example.com"
+                  placeholder="lord@castle.realm"
                   required
                 />
               </Field>
               <Field>
                 <div className="flex items-center">
-                  <FieldLabel htmlFor="password">Password</FieldLabel>
+                  <FieldLabel htmlFor="password">Sacred Passphrase</FieldLabel>
                   <a
                     href="#"
                     className="ml-auto text-sm underline-offset-2 hover:underline"
                   >
-                    Forgot your password?
+                    Hast thou forgotten thy words?
                   </a>
                 </div>
                 <Input id="password" type="password" required />
               </Field>
               <Field>
-                <Button type="submit">Login</Button>
+                <Button type="submit">Enter the Realm</Button>
               </Field>
               <div className="flex justify-end items-center space-x-2">
                 <Switch id="airplane-mode" />
-                <Label htmlFor="airplane-mode">Remember me</Label>
+                <Label htmlFor="airplane-mode">Remember this vessel</Label>
               </div>
               <FieldSeparator className="*:data-[slot=field-separator-content]:bg-card">
-                Or continue with
+                Or proceedeth by means of
               </FieldSeparator>
               <Field className="grid grid-cols-3 gap-4">
                 <Button variant="outline" type="button">
@@ -67,7 +67,7 @@ export function LoginForm({
                       fill="currentColor"
                     />
                   </svg>
-                  <span className="sr-only">Login with Apple</span>
+                  <span className="sr-only">Enter via Apple</span>
                 </Button>
                 <Button variant="outline" type="button">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -76,7 +76,7 @@ export function LoginForm({
                       fill="currentColor"
                     />
                   </svg>
-                  <span className="sr-only">Login with Google</span>
+                  <span className="sr-only">Enter via Google</span>
                 </Button>
                 <Button variant="outline" type="button">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -85,11 +85,11 @@ export function LoginForm({
                       fill="currentColor"
                     />
                   </svg>
-                  <span className="sr-only">Login with Meta</span>
+                  <span className="sr-only">Enter via Meta</span>
                 </Button>
               </Field>
               <FieldDescription className="text-center">
-                Don&apos;t have an account? <a href="#">Sign up</a>
+                Hast thou no account? <a href="#">Register thyself</a>
               </FieldDescription>
             </FieldGroup>
           </form>
@@ -103,8 +103,8 @@ export function LoginForm({
         </CardContent>
       </Card>
       <FieldDescription className="px-6 text-center">
-        By clicking continue, you agree to our <a href="#">Terms of Service</a>{" "}
-        and <a href="#">Privacy Policy</a>.
+        By proceeding forth, thou dost agree to our <a href="#">Terms of the Realm</a>{" "}
+        and <a href="#">Privacy Covenant</a>.
       </FieldDescription>
     </div>
   )

@@ -22,10 +22,10 @@ function Switch({
       <SwitchPrimitive.Thumb
         data-slot="switch-thumb"
         className={cn(
-          "bg-primary  border-2 border-background dark:data-[state=unchecked]:bg-foreground dark:data-[state=checked]:bg-primary-foreground pointer-events-none flex items-center justify-center size-4 rounded rotate-45 ring-0 transition-transform data-[state=checked]:translate-x-[calc(100%-2px)] data-[state=unchecked]:translate-x-0"
+          "bg-primary  border-2 border-background dark:data-[state=unchecked]:bg-primary dark:data-[state=checked]:bg-primary pointer-events-none flex items-center justify-center size-4 rounded rotate-45 ring-0 transition-transform data-[state=checked]:translate-x-[calc(100%-2px)] data-[state=unchecked]:translate-x-0"
         )}
       >
-        <Component className="w-2.5 h-2.5 text-background" />
+        <Component className="w-2.5 h-2.5 text-background dark:data-[state=unchecked]:text-foreground dark:data-[state=checked]:text-foreground" />
       </SwitchPrimitive.Thumb>
     </SwitchPrimitive.Root>
   )

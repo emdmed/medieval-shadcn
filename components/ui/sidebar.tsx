@@ -479,7 +479,7 @@ const sidebarMenuButtonVariants = cva(
   {
     variants: {
       variant: {
-        default: `hover:bg-sidebar-accent hover:text-sidebar-accent-foreground rounded-none [clip-path:${SIDEBAR_BUTTON_CLIP_PATH}]`,
+        default: `hover:bg-sidebar-accent hover:text-sidebar-accent-foreground rounded-none [clip-path:polygon(0%_0%,100%_0%,100%_25%,96%_40%,96%_60%,100%_75%,100%_100%,0%_100%)]`,
         outline: `bg-secondary shadow-[0_0_0_1px_hsl(var(--sidebar-border))] hover:bg-sidebar-accent hover:text-sidebar-accent-foreground hover:shadow-[0_0_0_1px_hsl(var(--sidebar-accent))] rounded-none [clip-path:${SIDEBAR_BUTTON_CLIP_PATH}]`,
       },
       size: {
