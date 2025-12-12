@@ -91,7 +91,7 @@ export default function ForgePage() {
 
           {/* Quick Statistics */}
           <div className="mb-20 grid gap-6 md:grid-cols-3">
-            <Card className="transition-all hover:shadow-lg hover:-translate-y-1">
+            <Card className="transition-shadow hover:shadow-lg">
               <CardHeader>
                 <Sword className="size-8 text-primary" />
                 <CardTitle className="text-3xl">56</CardTitle>
@@ -104,7 +104,7 @@ export default function ForgePage() {
               </CardContent>
             </Card>
 
-            <Card className="transition-all hover:shadow-lg hover:-translate-y-1">
+            <Card className="transition-shadow hover:shadow-lg">
               <CardHeader>
                 <Palette className="size-8 text-primary" />
                 <CardTitle className="text-3xl">6</CardTitle>
@@ -117,7 +117,7 @@ export default function ForgePage() {
               </CardContent>
             </Card>
 
-            <Card className="transition-all hover:shadow-lg hover:-translate-y-1">
+            <Card className="transition-shadow hover:shadow-lg">
               <CardHeader>
                 <Scroll className="size-8 text-primary" />
                 <CardTitle className="text-3xl">CLI</CardTitle>

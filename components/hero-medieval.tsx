@@ -1,6 +1,7 @@
 import * as React from "react"
 import { Button } from "@/components/ui/button"
-import { Flower, Component } from "lucide-react"
+import { Separator } from "@/components/ui/separator"
+import { Flower, Component, Sparkles } from "lucide-react"
 import { ThemeToggle } from "@/components/theme-toggle"
 
 export function HeroMedieval() {
@@ -12,8 +13,6 @@ export function HeroMedieval() {
       <div className="grid min-h-[calc(100vh-8rem)] grid-cols-1 items-center gap-8 sm:gap-12 lg:grid-cols-2">
         {/* Left: Text Content */}
         <div className="flex flex-col space-y-6">
-
-
           <div className="flex gap-4 items-center sm:gap-6">
             <div className="hidden sm:flex gap-2 items-center shrink-0">
               <Flower className="w-5 h-5 sm:w-6 sm:h-6" />
@@ -30,17 +29,34 @@ export function HeroMedieval() {
             </div>
           </div>
 
-          <p className="text-base sm:text-lg text-muted-foreground max-w-xl">
-            Tempered with geometric precision. Wrought upon the anvil of shadcn/ui.
-            Each piece crafted for the modern realm.
-          </p>
+          {/* Decorative Separator */}
+          <div className="flex items-center gap-3">
+            <Separator className="flex-1" />
+            <Component className="w-4 h-4 text-primary" />
+            <Separator className="flex-1" />
+          </div>
 
-          <div className="flex flex-col gap-4 sm:flex-row pt-4">
+          {/* Enhanced Subtitle */}
+          <div>
+            <p className="text-base sm:text-lg text-muted-foreground text-justify">
+              <span className="text-primary font-bold">·</span> Tempered with geometric precision. Wrought upon the anvil of shadcn/ui.
+              Each piece crafted for the modern realm. <span className="text-primary font-bold">·</span>
+            </p>
+          </div>
+
+          {/* Decorative Separator */}
+          <div className="flex items-center gap-3">
+            <Separator className="flex-1" />
+            <div className="text-primary text-sm">•</div>
+            <Separator className="flex-1" />
+          </div>
+
+          <div className="flex flex-col gap-4 sm:flex-row pt-2">
             <Button size="lg" asChild>
               <a href="/forge">+ Enter the Forge +</a>
             </Button>
             <Button size="lg" variant="outline" asChild>
-              <a href="#showcase">View the Arsenal</a>
+              <a href="#showcase">View the Gallery</a>
             </Button>
           </div>
         </div>
