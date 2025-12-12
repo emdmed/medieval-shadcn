@@ -37,10 +37,10 @@ export function HeroMedieval() {
 
           <div className="flex flex-col gap-4 sm:flex-row pt-4">
             <Button size="lg" asChild>
-              <a href="#showcase">+ Enter the Arsenal +</a>
+              <a href="/forge">+ Enter the Forge +</a>
             </Button>
-            <Button size="lg" variant="outline" disabled>
-              The Scrolls
+            <Button size="lg" variant="outline" asChild>
+              <a href="#showcase">View the Arsenal</a>
             </Button>
           </div>
         </div>
